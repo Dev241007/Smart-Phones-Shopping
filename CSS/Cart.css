@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #6cb027, #69a6d9);
+        
+    margin:0;
+    padding: 0;
+}
+
+nav {
+    width: 80%;
+    position: sticky;
+    margin: 20px auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    margin-top: -20px;
+}
+
+.logo {
+    flex-basis: 20%;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 20px;
+    color: black;
+
+    height: 30px;
+    width: 100px;
+    text-decoration: none;
+    text-align: center;
+    padding: 2px;
+    padding-top: 15px;
+    border-radius: 2rem;
+}
+
+.nav-links ul li:hover{
+background: #fff;
+transition: 1s;
+}
+.nav-links ul li a {
+    color: black;
+text-decoration: none;
+    
+
+}
+#active{
+    color: #000;
+    font-weight: 700;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    padding: 20px;
+    margin-top: 200px;
+    max-width: 800px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 2rem;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.cart-item img {
+    width: 150px;
+    height: auto;
+}
+
+.item-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.quantity button {
+    width: 30px;
+    height: 30px;
+    background-color: #ccc;
+    border: none;
+    cursor: pointer;
+}
+
+.quantity input {
+    width: 40px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.price-breakdown {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.price-breakdown h3 {
+    margin: 0;
+}
+
+.price-breakdown p {
+    margin: 0;
+}
+
+.price-breakdown hr {
+    border: 0.5px solid #ccc;
+    width: 100%;
+}
+
+.price-breakdown h2 {
+    color: rgb(141, 56, 180);
+}
+
+.place-order {
+    background-color: #6a983c;
+    color: rgb(3, 2, 2);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 2rem;
+    cursor: pointer;
+    margin-top: 10px;
+    align-self: flex-start;
+}
+#snick{
+    font-size: 50px;
+
+        font-family: "Spicy Rice", serif;
+        font-weight: 400;
+        font-style: normal;
+      
+      
+}
